@@ -8,5 +8,5 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
   },
-  plugins: [new html({ title: 'WebPack Demo Exercise' })]
+  plugins: [new html({ template: './src/index.html' })]
 };
