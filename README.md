@@ -27,7 +27,8 @@ Check the below contents for further details about this project.
 
 # 📖 Description
 
-This project is an exercise for using `WebPack` different tools and configurations. It contains three main files (`index.html` / `index.css` / `index.js`).
+This project is an exercise for using `WebPack` & its different configurations.
+It contains three main files (`index.html` / `index.css` / `index.js`) in `source` directory.
 It also includes some config linters for (`HTML` / `CSS3` / `JavaScript`) in the `.github` folder. 
 
 📌 **Live Demo:**
@@ -35,11 +36,14 @@ It also includes some config linters for (`HTML` / `CSS3` / `JavaScript`) in the
 
 📌 **Tech Stack:**
 - Page strucutre is built with `HTML5`
-- Styling and effects built with `CSS3`
-- Interaction and dynamic content built with `JavaScript`
+- Styling is built with `CSS3`
+- Dynamic content built with `JavaScript`
 
 📌 **Key Features:**
-
+- Simple page structure with one `h1` and `div` tags
+- Content of `div` tag is loaded dynamically
+- Basic `css` rule to color the page background
+ 
 
 <p align="right"><a href="#title">back to top</a></p>
 
@@ -52,13 +56,21 @@ It also includes some config linters for (`HTML` / `CSS3` / `JavaScript`) in the
 You can easily download or fork this repository and work on it immadiately!
 
 📌 **Prerequisites:**
-- No prior requirements needed!
+- `NodeJS` for installing & running all packages 
 
 📌 **Setup:**
-- Simply download or fork this repository.
+- Install all dependencies with `npm`
+- For live development on `localhost:8080` run:
+```
+npm run start
+```
 
 📌 **Deployment:**
-- You can deploy this project by uploading three files (`index.html` / `index.css` / `index.js`) with `modules` folder to a live server.
+- You can deploy this project by uploading two files (`index.html` / `main.js`) in the `build` folder to a live server.
+- Create the distribution build using this command:
+```
+npm run build
+```
 
 <p align="right"><a href="#title">back to top</a></p>
 
@@ -82,8 +94,8 @@ You can easily download or fork this repository and work on it immadiately!
 # 🔭 Future
 
 Some additional features I may implement in the project:
-- [ ] Backend and database integration
-- [ ] Admin panel for content management
+- [ ] Using `CSS` preprocessors and their relevant loaders
+- [ ] Implement two `WebPack` configurations for production & development
 
 <p align="right"><a href="#title">back to top</a></p>
 
