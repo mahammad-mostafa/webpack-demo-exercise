@@ -2,6 +2,7 @@ const path = require('path');
 const html = require('html-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: './source/index.js',
   output: {
     clean: true,
