@@ -1,5 +1,5 @@
-const path = require('path');
-const html = require('html-webpack-plugin');
+const Path = require('path');
+const Html = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -7,10 +7,10 @@ module.exports = {
   output: {
     clean: true,
     filename: 'main.js',
-    path: path.resolve(__dirname, 'build')
+    path: Path.resolve(__dirname, 'build'),
   },
   module: {
-    rules: [{ test: /\.css$/i, use: ['style-loader', 'css-loader'] }]
+    rules: [{ test: /\.css$/i, use: ['style-loader', 'css-loader'] }],
   },
-  plugins: [new html({ template: './source/index.html' })]
+  plugins: [new Html({ template: './source/index.html' })],
 };
