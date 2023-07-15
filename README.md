@@ -31,6 +31,9 @@ This project is an exercise for using `WebPack` & its different configurations.
 It contains three main files (`index.html` / `index.css` / `index.js`) in `source` directory.
 It also includes some config linters for (`HTML` / `CSS3` / `JavaScript`) in the `.github` folder. 
 
+📌 **Live Demo:**
+- See the project live from [here](https://mahammad-mostafa.github.io/webpack-demo-exercise/build).
+
 📌 **Tech Stack:**
 - Page strucutre is built with `HTML5`
 - Styling is built with `CSS3`
