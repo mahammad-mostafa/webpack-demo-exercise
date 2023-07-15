@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/mahammad-mostafa/webpack-demo-exercise/issues"
   },
-  "homepage": "https://github.com/mahammad-mostafa/webpack-demo-exercise#readme",
+  "homepage": "https://github.com/mahammad-mostafa/webpack-demo-exercise/build",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
